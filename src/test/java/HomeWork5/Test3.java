@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 
 
-public class Test3 extends Test1 {
+public class Test3 extends Test2 {
     @Test
     @DisplayName("Авторизация на сайте")
     void myLoginTest() {

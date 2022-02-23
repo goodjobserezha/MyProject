@@ -25,6 +25,7 @@ public abstract class Test1 {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
     }
+
     @BeforeEach
     void goTo() {
         Assertions.assertDoesNotThrow( ()-> driver.navigate().to("https://www.saucedemo.com/"),
